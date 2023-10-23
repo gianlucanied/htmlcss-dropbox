@@ -48,14 +48,14 @@ h1{
     border-top: 60px;
     border-top-style: solid;
     font-size: 80px;
-    background-color: aquamarine;
+    background-color: rgb(127, 195, 255);
     padding: 50px 0;
     padding-left: 21%;
 
 }
 
 #jumbotron{
-    background-color: aquamarine;
+    background-color: rgb(127, 195, 255);
     width: 100%;
     display: flex;
     height: 500px;
@@ -94,7 +94,7 @@ h1{
 }
 
 .sotto-header{
-    margin-left: 20%;
+    margin-left: 21%;
 }
 
 .title-section{
@@ -190,4 +190,60 @@ h1{
     width: 58%;
     margin-left: 322px;
     margin-top: 5%;
+}
+
+.content-section-team{
+    border: 2px solid;
+    margin-left: 322px;
+    border-color: rgb(204, 204, 204);
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title-second-section{
+    margin: 3%;
+}
+
+#under-title-section{
+    margin: 3%;
+}
+
+#content-section{
+    margin: 3%;
+    color: grey;
+}
+
+.button-blue-3{
+    margin:25px 100px 0 0;
+    border: none;
+    color: white;
+    background-color: rgb(59, 59, 255);
+    width: 80%;
+    height: 30px;
+}
+
+.section-contatto{
+    display: flex;
+    width: 80%;
+
+}
+
+.foto-contatti{
+    background-image: url(partner.png);
+    width: 150%;
+    height: 405px;
+    background-size: cover;
+    margin: 10% 0 0 26%;
+}
+
+.content-contatti{
+    margin: 15% 25px;
+}
+
+.button-contatti{
+    margin:25px 100px 0 0;
+    color: grey;
+    width: 40%;
+    height: 30px;
 }
