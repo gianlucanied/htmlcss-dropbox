@@ -186,6 +186,7 @@ h1{
     width: 58%;
     margin-left: 322px;
     margin-top: 5%;
+    border-bottom: none;
 }
 
 .content-section-team{
@@ -325,18 +326,30 @@ h1{
 
 }
 
+.titolo-domande{
+    margin: 5% 0 3% 25%;
+}
 
+.section-domande{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
 
-
-
-
-
+.domande{
+    height: calc(100% / 3);
+    border-top: 1px solid;
+    padding-top: 4%;
+}
 
 .container-black{
     display: flex;
     height: 330px;
     justify-content: center;
     background-color: black;
+    margin-top: 3%;
 }
 
 .large-block{
