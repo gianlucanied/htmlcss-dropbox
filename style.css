@@ -334,7 +334,7 @@ h1{
 
 .container-black{
     display: flex;
-    height: 400px;
+    height: 330px;
     justify-content: center;
     background-color: black;
 }
@@ -368,4 +368,10 @@ h1{
     justify-content: center;
     height: 80px;
     padding: 3px;
+}
+
+.lingua{
+    color: grey;
+    background-color: black;
+    padding-left: 18%;
 }
