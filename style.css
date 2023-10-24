@@ -326,14 +326,73 @@ h1{
 .partner-image{
     width: 50%;
     height: auto;
+    filter: invert(1);
 }
 
-.sub-section-membri{
+.sub-section-membri-1{
     width: calc(100% / 2);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(5, 155, 5);
 }
+
+.sub-section-membri-2{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+
+.sub-section-membri-3{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.sub-section-membri-4{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.sub-section-membri-5{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.sub-section-membri-6{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 120, 247);
+}
+
+.sub-section-membri-7{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.sub-section-membri-8{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
 
 .section-membri-center{
     width: 35%;
@@ -342,7 +401,7 @@ h1{
 }
 
 .sub-section-membri-center{
-    padding-top: 5%;
+    padding: 5% 30% 0 5%;
 
 }
 .dropbox-azienda{
@@ -382,8 +441,13 @@ h1{
 
 .domande{
     height: calc(100% / 3);
+    border-bottom: 1px solid;
     border-top: 1px solid;
     padding-top: 4%;
+}
+
+.arrow-down{
+    padding-left: 30%;
 }
 
 .container-black{
@@ -428,5 +492,5 @@ h1{
 .lingua{
     color: grey;
     background-color: black;
-    padding-left: 18%;
+    padding: 0 0 3% 18%;
 }
