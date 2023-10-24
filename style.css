@@ -98,7 +98,7 @@ h1{
 }
 
 .title-section{
-    margin: 5% 0;
+    margin: 5% 20%;
     font-size: 30px;
 }
 
@@ -271,4 +271,101 @@ h1{
 .caption-image{
     color: grey;
     margin-top: 12%;
+}
+
+.inform-clienti{
+    color: blue;
+    text-decoration: underline;
+    margin: 0 0 10% 20%;
+}
+
+.partner-div{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-membri{
+    width: 100%;
+    display: flex;
+}
+
+.sub-section-membri{
+    position: relative;
+    border: 1px solid;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.section-membri-center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropbox-azienda{
+    height: 200px;
+    display: flex;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+#dropbox-azienda-title{
+    margin: 5% 0 0 25%;
+    color: brown;
+}
+
+#button-prova-2{
+    height: 30px;
+    margin: 5% 0 0 10%;
+    width: 20%;
+    border: none;
+
+}
+
+
+
+
+
+
+
+
+.container-black{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    background-color: black;
+}
+
+.large-block{
+    margin-top: 5px;
+    height: 350px;
+    width: 250px;
+
+}
+
+.small-block{
+    background-color: black;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.title-small{
+    color: white;
+}
+
+.title-white-small{
+    color: white;
+    margin-top: 10px;
+}
+
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    padding: 3px;
 }
