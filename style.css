@@ -34,6 +34,10 @@
     margin-right: 5px;
 }
 
+.option-header:hover{
+    cursor: pointer;
+}
+
 #button-header{
     border: none;
     color: white;
@@ -41,6 +45,10 @@
     width: 70px;
     margin-right: 25px;
     height: 30px;
+}
+
+#button-header:hover{
+    cursor: pointer;
 }
 
 h1{
@@ -86,6 +94,10 @@ h1{
     background-color: rgb(59, 59, 255);
     width: 50%;
     height: 30px;
+}
+
+.button-blue:hover{
+    cursor: pointer;
 }
 
 #arrow-down{
@@ -152,6 +164,9 @@ h1{
 .button-prova{
     margin-top: 10%;
 }
+.button-prova:hover{
+    cursor: pointer;
+}
 
 .button-blue-2{
     margin: 5% 0;
@@ -162,10 +177,15 @@ h1{
     height: 30px;
 }
 
+.button-blue-2:hover{
+    cursor: pointer;
+}
+
 .acquista-ora{
     text-align: left;
     margin-top: 10%;
 }
+
 
 .punti-piano{
     padding-top: 50%;
@@ -187,7 +207,9 @@ h1{
     margin-left: 322px;
     margin-top: 5%;
     border-bottom: none;
+    padding: 5px;
 }
+
 
 .content-section-team{
     border: 2px solid;
@@ -220,6 +242,10 @@ h1{
     height: 30px;
 }
 
+.button-blue-3:hover{
+    cursor: pointer;
+}
+
 .section-contatto{
     display: flex;
     width: 80%;
@@ -243,6 +269,10 @@ h1{
     color: grey;
     width: 40%;
     height: 30px;
+}
+
+.button-contatti:hover{
+    cursor: pointer;
 }
 
 #titolo-dropbox-business{
@@ -307,7 +337,7 @@ h1{
 }
 
 .dropbox-azienda{
-    height: 200px;
+    height: 240px;
     display: flex;
     width: 100%;
     background-color: cornflowerblue;
@@ -323,7 +353,10 @@ h1{
     margin: 5% 0 0 10%;
     width: 20%;
     border: none;
+}
 
+#button-prova-2:hover{
+    cursor: pointer;
 }
 
 .titolo-domande{
