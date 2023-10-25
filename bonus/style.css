@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu-superiore{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 500;
+    max-height: 60px;
+    color: grey;
+    padding: 20px;
+}
+
+.left-header{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.right-header{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.option-header{
+    margin: 3px 5px -20px 0;
+}
+
+.option-header:hover{
+    cursor: pointer;
+    border-bottom: 2px solid grey;
+    padding-bottom: 2px;
+}
+
+#button-header{
+    border: none;
+    color: white;
+    background-color: rgb(59, 59, 255);
+    width: 70px;
+    margin-right: 25px;
+    height: 30px;
+}
+
+#button-header:hover{
+    cursor: pointer;
+}
+
+h1{
+    text-align: left;
+    border-top: 60px;
+    border-top-style: solid;
+    font-size: 80px;
+    background-color: rgb(127, 195, 255);
+    padding: 50px 0;
+    padding-left: 21%;
+}
+
+#jumbotron{
+    background-color: rgb(127, 195, 255);
+    width: 100%;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    background-size: cover;
+}
+
+.jumbo-content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 21%;
+}
+
+#contenuto-jumbo{
+    font-size: 20px;
+}
+
+#jumbo-image{
+    height: 80%;
+    padding-right: 150px;
+}
+
+.button-blue{
+    margin: 5% 0;
+    border: none;
+    color: white;
+    background-color: rgb(59, 59, 255);
+    width: 50%;
+    height: 30px;
+}
+
+.button-blue:hover{
+    cursor: pointer;
+}
+
+#arrow-down{
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+#arrow-down:
+
+.sotto-header{
+    margin-left: 21%;
+}
+
+.title-section{
+    margin: 5% 20%;
+    font-size: 30px;
+}
+
+.checkbox{
+    margin-left: 21%;
+}
+
+.opzioni-acquisto{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 20%;
+}
+
+.opzione{
+    width: 30%;
+    border: 2px solid;
+    border-color: rgb(204, 204, 204);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.type-class{
+    border-top: 2px solid;
+    border-color: rgb(204, 204, 204);
+    text-align: left;
+    padding-top: 15%;
+}
+
+.price{
+    text-align: left;
+    padding-top: 10%;
+}
+
+.frequenza-pagamento{
+    text-align: left;
+    color: grey;
+    padding-top: 7%;
+}
+
+.numero-utente{
+    text-align: left;
+    padding-top: 15%;
+}
+
+.inform-type{
+    text-align: left;
+    padding-top: 15%;
+}
+
+.button-prova{
+    margin-top: 10%;
+}
+.button-prova:hover{
+    cursor: pointer;
+}
+
+.button-blue-2{
+    margin: 5% 0;
+    border: none;
+    color: white;
+    background-color: rgb(59, 59, 255);
+    width: 80%;
+    height: 30px;
+}
+
+.button-blue-2:hover{
+    cursor: pointer;
+}
+
+.acquista-ora{
+    text-align: left;
+    margin-top: 10%;
+}
+
+
+.punti-piano{
+    padding-top: 50%;
+    text-align: left;
+    padding-bottom: 10%;
+}
+
+.lista-punti{
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 8%;
+}
+
+#section-team{
+    text-align: center;
+    border: 2px solid;
+    border-color: rgb(204, 204, 204);
+    width: 58%;
+    margin-left: 322px;
+    margin-top: 5%;
+    border-bottom: none;
+    padding: 5px;
+}
+
+
+.content-section-team{
+    border: 2px solid;
+    margin-left: 322px;
+    border-color: rgb(204, 204, 204);
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title-second-section{
+    margin: 3%;
+}
+
+#under-title-section{
+    margin: 3%;
+}
+
+#content-section{
+    margin: 3%;
+    color: grey;
+}
+
+.button-blue-3{
+    margin:25px 100px 0 0;
+    border: none;
+    color: white;
+    background-color: rgb(59, 59, 255);
+    width: 80%;
+    height: 30px;
+}
+
+.button-blue-3:hover{
+    cursor: pointer;
+}
+
+.section-contatto{
+    display: flex;
+    width: 80%;
+}
+
+.foto-contatti{
+    background-image: url(partner.png);
+    width: 150%;
+    height: 405px;
+    background-size: cover;
+    margin: 10% 0 0 26%;
+}
+
+.content-contatti{
+    margin: 15% 25px;
+}
+
+.button-contatti{
+    margin:25px 100px 0 0;
+    color: grey;
+    width: 40%;
+    height: 30px;
+}
+
+.button-contatti:hover{
+    cursor: pointer;
+}
+
+#titolo-dropbox-business{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.business-section{
+    width: 60%;
+    height: 500px;
+    margin-left: 20%;
+    display: flex;
+}
+
+.sub-section-business{
+    width: calc(100% / 3);
+    height: calc(100% / 2);
+    position: relative;
+}
+
+
+.section-image{
+    width: 100%;
+    height: 100%;
+}
+
+.caption-image{
+    color: grey;
+    margin-top: 12%;
+}
+
+.inform-clienti{
+    color: blue;
+    text-decoration: underline;
+    margin: 0 0 10% 20%;
+}
+
+.partner-div{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.section-membri{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner-image{
+    width: 50%;
+    height: auto;
+    filter: invert(1);
+}
+
+.sub-section-membri-1{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 155, 5);
+}
+
+.sub-section-membri-2{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+
+.sub-section-membri-3{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.sub-section-membri-4{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.sub-section-membri-5{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.sub-section-membri-6{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 120, 247);
+}
+
+.sub-section-membri-7{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.sub-section-membri-8{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.section-membri-center{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-section-membri-center{
+    padding: 5% 30% 0 5%;
+}
+.dropbox-azienda{
+    height: 240px;
+    display: flex;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+#dropbox-azienda-title{
+    margin: 5% 0 0 25%;
+    color: brown;
+}
+
+#button-prova-2{
+    height: 30px;
+    margin: 5% 0 0 10%;
+    width: 20%;
+    border: none;
+}
+
+#button-prova-2:hover{
+    cursor: pointer;
+}
+
+.titolo-domande{
+    margin: 5% 0 3% 25%;
+}
+
+.section-domande{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+.domande{
+    height: calc(100% / 3);
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding-top: 4%;
+}
+
+#risposte{
+    display: none;
+    margin: 20px 0;
+    color: grey;
+}
+
+.domande:hover + #risposte{
+    display: block;
+}
+
+.arrow-down{
+    padding-left: 30%;
+}
+
+.container-black{
+    display: flex;
+    height: 330px;
+    justify-content: center;
+    background-color: black;
+    margin-top: 3%;
+}
+
+.large-block{
+    margin-top: 5px;
+    height: 350px;
+    width: 250px;
+}
+
+.small-block{
+    background-color: black;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.title-small{
+    color: white;
+}
+
+.title-white-small{
+    color: white;
+    margin-top: 10px;
+}
+
+.title-white-small:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    padding: 3px;
+}
+
+.lingua{
+    color: grey;
+    background-color: black;
+    padding: 0 0 3% 18%;
+}
