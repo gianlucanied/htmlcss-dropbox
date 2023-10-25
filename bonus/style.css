@@ -5,6 +5,8 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/*stile header*/
+
 .menu-superiore{
     background-color: white;
     width: 100%;
@@ -51,6 +53,8 @@
 #button-header:hover{
     cursor: pointer;
 }
+
+/*stile jumbotron*/
 
 h1{
     text-align: left;
@@ -104,19 +108,15 @@ h1{
     margin-top: 10%;
 }
 
-#arrow-down:
+/*stile sezione acquisti*/
 
 .sotto-header{
     margin-left: 21%;
 }
 
 .title-section{
-    margin: 5% 20%;
+    margin: 5% 0 5% 20% ;
     font-size: 30px;
-}
-
-.checkbox{
-    margin-left: 21%;
 }
 
 .opzioni-acquisto{
@@ -247,6 +247,8 @@ h1{
     cursor: pointer;
 }
 
+/*stile sezione per trovare partner*/
+
 .section-contatto{
     display: flex;
     width: 80%;
@@ -274,6 +276,8 @@ h1{
 .button-contatti:hover{
     cursor: pointer;
 }
+
+/*stile sezione Dropbox Business*/
 
 #titolo-dropbox-business{
     text-align: center;
@@ -304,11 +308,15 @@ h1{
     margin-top: 12%;
 }
 
+/*stile sezione sotto dropbox business*/
+
 .inform-clienti{
     color: blue;
     text-decoration: underline;
     margin: 0 0 10% 20%;
 }
+
+/*stile sezione partner con vari quadrati*/
 
 .partner-div{
     width: 100%;
@@ -401,6 +409,9 @@ h1{
 .sub-section-membri-center{
     padding: 5% 30% 0 5%;
 }
+
+/*stile sezione porta dropbox business in azienda*/
+
 .dropbox-azienda{
     height: 240px;
     display: flex;
@@ -423,6 +434,8 @@ h1{
 #button-prova-2:hover{
     cursor: pointer;
 }
+
+/*stile sezione domande*/
 
 .titolo-domande{
     margin: 5% 0 3% 25%;
@@ -456,6 +469,8 @@ h1{
 .arrow-down{
     padding-left: 30%;
 }
+
+/*stile footer*/
 
 .container-black{
     display: flex;
