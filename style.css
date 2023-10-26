@@ -104,6 +104,7 @@ h1{
 
 .button-blue:hover{
     cursor: pointer;
+    background-color: rgb(88, 88, 255);
 }
 
 #arrow-down{
@@ -187,6 +188,7 @@ h1{
 
 .button-blue-2:hover{
     cursor: pointer;
+    background-color: rgb(88, 88, 255);
 }
 
 .acquista-ora{
@@ -272,16 +274,18 @@ h1{
     margin: 15% 25px;
 }
 
-.button-contatti{
-    margin:25px 100px 0 0;
-    width: 40%;
+#button-contatti{
     height: 30px;
-    background-color: white;
+    margin-top: 10%;
+    width: 35%;
     border-color: black;
+    color: black;
+    background-color: white;
 }
 
-.button-contatti:hover{
+#button-contatti:hover{
     cursor: pointer;
+    background-color: rgb(196, 196, 196);
 }
 
 /*stile sezione Dropbox Business*/
@@ -448,10 +452,12 @@ h1{
     margin: 5% 0 0 13%;
     width: 19%;
     border: none;
+    background-color: white;
 }
 
 #button-prova-2:hover{
     cursor: pointer;
+    background-color: rgb(196, 196, 196);
 }
 
 /*stile sezione domande*/
