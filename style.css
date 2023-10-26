@@ -285,7 +285,7 @@ h1{
 
 #button-contatti:hover{
     cursor: pointer;
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(218, 218, 218);
 }
 
 /*stile sezione Dropbox Business*/
@@ -421,7 +421,6 @@ h1{
     background-color: yellow;
 }
 
-
 .section-membri-center{
     width: 35%;
     display: flex;
@@ -457,7 +456,7 @@ h1{
 
 #button-prova-2:hover{
     cursor: pointer;
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(218, 218, 218);
 }
 
 /*stile sezione domande*/
