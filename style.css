@@ -30,12 +30,13 @@
 }
 
 .option-header{
-    margin-top: 3px;
-    margin-right: 5px;
+    margin: 3px 5px -20px 0;
 }
 
 .option-header:hover{
     cursor: pointer;
+    border-bottom: 2px solid grey;
+    padding-bottom: 2px;
 }
 
 #button-header{
@@ -49,13 +50,17 @@
 
 #button-header:hover{
     cursor: pointer;
+    border-bottom: 2px solid grey;
+    padding-bottom: 2px;
 }
+
+/*stile jumbotron*/
 
 h1{
     text-align: left;
     border-top: 60px;
     border-top-style: solid;
-    font-size: 80px;
+    font-size: 70px;
     background-color: rgb(127, 195, 255);
     padding: 50px 0;
     padding-left: 21%;
@@ -83,8 +88,8 @@ h1{
 }
 
 #jumbo-image{
-    height: 80%;
-    padding-right: 150px;
+    height: 85%;
+    padding-right: 95px;
 }
 
 .button-blue{
@@ -92,8 +97,9 @@ h1{
     border: none;
     color: white;
     background-color: rgb(59, 59, 255);
-    width: 50%;
+    width: 55%;
     height: 30px;
+    font-size: 15px;
 }
 
 .button-blue:hover{
@@ -105,16 +111,18 @@ h1{
     margin-top: 10%;
 }
 
+/*stile sezione acquisti*/
+
 .sotto-header{
     margin-left: 21%;
 }
 
 .title-section{
-    margin: 5% 20%;
+    margin: 5% 0;
     font-size: 30px;
 }
 
-.checkbox{
+.radio{
     margin-left: 8%;
 }
 
@@ -238,7 +246,7 @@ h1{
     border: none;
     color: white;
     background-color: rgb(59, 59, 255);
-    width: 80%;
+    width: 90%;
     height: 30px;
 }
 
@@ -266,14 +274,17 @@ h1{
 
 .button-contatti{
     margin:25px 100px 0 0;
-    color: grey;
     width: 40%;
     height: 30px;
+    background-color: white;
+    border-color: black;
 }
 
 .button-contatti:hover{
     cursor: pointer;
 }
+
+/*stile sezione Dropbox Business*/
 
 #titolo-dropbox-business{
     text-align: center;
@@ -299,16 +310,24 @@ h1{
     height: 100%;
 }
 
+.title-section-1{
+    margin: 5% 20%;
+}
+
 .caption-image{
     color: grey;
     margin-top: 12%;
 }
+
+/*stile sezione sotto dropbox business*/
 
 .inform-clienti{
     color: blue;
     text-decoration: underline;
     margin: 0 0 10% 20%;
 }
+
+/*stile sezione partner con vari quadrati*/
 
 .partner-div{
     width: 100%;
@@ -398,12 +417,15 @@ h1{
     width: 35%;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
 }
 
 .sub-section-membri-center{
     padding: 5% 30% 0 5%;
-
 }
+
+/*stile sezione porta dropbox business in azienda*/
+
 .dropbox-azienda{
     height: 240px;
     display: flex;
@@ -427,6 +449,8 @@ h1{
     cursor: pointer;
 }
 
+/*stile sezione domande*/
+
 .titolo-domande{
     margin: 5% 0 3% 25%;
 }
@@ -449,6 +473,8 @@ h1{
 .arrow-down{
     padding-left: 30%;
 }
+
+/*stile footer*/
 
 .container-black{
     display: flex;
@@ -480,6 +506,10 @@ h1{
     margin-top: 10px;
 }
 
+.title-white-small:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
 
 .footer{
     background-color: black;
