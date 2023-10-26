@@ -50,8 +50,7 @@
 
 #button-header:hover{
     cursor: pointer;
-    border-bottom: 2px solid grey;
-    padding-bottom: 2px;
+    background-color: rgb(88, 88, 255);
 }
 
 /*stile jumbotron*/
@@ -254,6 +253,7 @@ h1{
 
 .button-blue-3:hover{
     cursor: pointer;
+    background-color: rgb(88, 88, 255);
 }
 
 .section-contatto{
